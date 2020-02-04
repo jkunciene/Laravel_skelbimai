@@ -19,12 +19,18 @@
     <link rel="stylesheet" href="{!! asset('css/aos.css') !!}"/>
     <link rel="stylesheet" href="{!! asset('css/rangeslider.css') !!}"/>
     <link rel="stylesheet" href="{!! asset('css/style.css') !!}"/>
-    <link rel="stylesheet" href="{!! asset('css/custom.css') !!}" />
+
     <title>Document</title>
 </head>
 <body>
 @include('skelbimai/_partials/header')
 @include('skelbimai/_partials/overlay')
+@include('skelbimai/_partials/adds')
+@include('skelbimai/_partials/categories')
+@include('skelbimai/_partials/trends')
+@include('skelbimai/_partials/testimonials')
+@include('skelbimai/_partials/blog')
+@include('skelbimai/_partials/newsletter')
 @include('skelbimai/_partials/nav')
 @yield('content')
 @include('skelbimai/_partials/footer')
