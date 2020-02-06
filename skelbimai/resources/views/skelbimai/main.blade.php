@@ -14,8 +14,9 @@
     <title>Document</title>
 </head>
 <body>
+@include('skelbimai/_partials/admin.panel')
 @include('skelbimai/_partials/header')
-@include('skelbimai._partials.overlay')
+
 {{--@include('skelbimai/_partials/trends')--}}
 {{--@include('skelbimai/_partials/testimonials')--}}
 {{--@include('skelbimai/_partials/blog')--}}
