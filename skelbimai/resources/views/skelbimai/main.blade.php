@@ -9,12 +9,20 @@
     <link rel="stylesheet" href="{{ mix('/css/bootstrap/bootstrap.css') }}">
     <link rel="stylesheet" href="{{ mix('/css/vendor.css') }}">
     <link rel="stylesheet" href="{{ mix('/css/style.css') }}">
-
-
-    <title>Document</title>
+    <title>Jolitos</title>
 </head>
 <body>
-@include('skelbimai/_partials/admin.panel')
+<div class="site-wrap">
+    <div class="site-mobile-menu">
+        <div class="site-mobile-menu-header">
+            <div class="site-mobile-menu-close mt-3">
+                <span class="icon-close2 js-menu-toggle"></span>
+            </div>
+        </div>
+        <div class="site-mobile-menu-body"></div>
+    </div>
+</div>
+@include('skelbimai/_partials/admin_panel')
 @include('skelbimai/_partials/header')
 
 {{--@include('skelbimai/_partials/trends')--}}
