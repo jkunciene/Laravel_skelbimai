@@ -2,15 +2,150 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d601258-062e-4c30-b96b-9fb199752778" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skelbimai/resources/views/skelbimai/_partials/adds.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skelbimai/resources/views/skelbimai/_partials/blog.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skelbimai/resources/views/skelbimai/_partials/categories.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skelbimai/resources/views/skelbimai/_partials/newsletter.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skelbimai/resources/views/skelbimai/_partials/testimonials.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skelbimai/resources/views/skelbimai/_partials/trends.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vagrant.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/_site-base.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/_site-base.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/_site-blocks.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/_site-blocks.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/_site-navbar.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/_site-navbar.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/_alert.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/_alert.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/_badge.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/_badge.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/_breadcrumb.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/_breadcrumb.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/_button-group.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/_button-group.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/_buttons.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/_buttons.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/_card.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/_card.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/_carousel.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/_carousel.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/_close.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/_close.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/_code.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/_code.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/_custom-forms.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/_custom-forms.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/_dropdown.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/_dropdown.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/_forms.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/_forms.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/_functions.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/_functions.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/_grid.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/_grid.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/_images.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/_images.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/_input-group.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/_input-group.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/_jumbotron.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/_jumbotron.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/_list-group.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/_list-group.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/_media.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/_media.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/_mixins.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/_mixins.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/_modal.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/_modal.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/_nav.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/_nav.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/_navbar.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/_navbar.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/_pagination.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/_pagination.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/_popover.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/_popover.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/_print.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/_print.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/_progress.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/_progress.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/_reboot.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/_reboot.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/_root.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/_root.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/_tables.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/_tables.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/_tooltip.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/_tooltip.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/_transitions.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/_transitions.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/_type.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/_type.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/_utilities.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/_utilities.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/_variables.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/_variables.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/bootstrap-grid.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/bootstrap-grid.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/bootstrap-reboot.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/bootstrap-reboot.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/bootstrap.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/bootstrap.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/mixins/_alert.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/mixins/_alert.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/mixins/_background-variant.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/mixins/_background-variant.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/mixins/_badge.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/mixins/_badge.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/mixins/_border-radius.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/mixins/_border-radius.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/mixins/_box-shadow.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/mixins/_box-shadow.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/mixins/_breakpoints.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/mixins/_breakpoints.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/mixins/_buttons.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/mixins/_buttons.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/mixins/_caret.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/mixins/_caret.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/mixins/_clearfix.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/mixins/_clearfix.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/mixins/_float.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/mixins/_float.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/mixins/_forms.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/mixins/_forms.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/mixins/_gradients.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/mixins/_gradients.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/mixins/_grid-framework.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/mixins/_grid-framework.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/mixins/_grid.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/mixins/_grid.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/mixins/_hover.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/mixins/_hover.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/mixins/_image.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/mixins/_image.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/mixins/_list-group.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/mixins/_list-group.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/mixins/_lists.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/mixins/_lists.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/mixins/_nav-divider.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/mixins/_nav-divider.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/mixins/_pagination.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/mixins/_pagination.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/mixins/_reset-text.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/mixins/_reset-text.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/mixins/_resize.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/mixins/_resize.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/mixins/_screen-reader.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/mixins/_screen-reader.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/mixins/_size.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/mixins/_size.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/mixins/_table-row.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/mixins/_table-row.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/mixins/_text-emphasis.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/mixins/_text-emphasis.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/mixins/_text-hide.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/mixins/_text-hide.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/mixins/_text-truncate.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/mixins/_text-truncate.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/mixins/_transition.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/mixins/_transition.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/mixins/_visibility.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/mixins/_visibility.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/utilities/_align.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/utilities/_align.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/utilities/_background.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/utilities/_background.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/utilities/_borders.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/utilities/_borders.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/utilities/_clearfix.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/utilities/_clearfix.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/utilities/_display.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/utilities/_display.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/utilities/_embed.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/utilities/_embed.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/utilities/_flex.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/utilities/_flex.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/utilities/_float.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/utilities/_float.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/utilities/_position.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/utilities/_position.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/utilities/_screenreaders.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/utilities/_screenreaders.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/utilities/_shadows.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/utilities/_shadows.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/utilities/_sizing.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/utilities/_sizing.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/utilities/_spacing.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/utilities/_spacing.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/utilities/_text.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/utilities/_text.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/bootstrap/utilities/_visibility.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/bootstrap/utilities/_visibility.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/assets/scss/style.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/style.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/public/css/aos.css" afterPath="$PROJECT_DIR$/skelbimai/public/css/vendor/aos.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/public/css/bootstrap-datepicker.css" afterPath="$PROJECT_DIR$/skelbimai/public/css/vendor/bootstrap-datepicker.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/public/css/jquery-ui.css" afterPath="$PROJECT_DIR$/skelbimai/public/css/vendor/jquery-ui.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/public/css/magnific-popup.css" afterPath="$PROJECT_DIR$/skelbimai/public/css/vendor/magnific-popup.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/public/css/owl.carousel.min.css" afterPath="$PROJECT_DIR$/skelbimai/public/css/vendor/owl.carousel.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/public/css/owl.theme.default.min.css" afterPath="$PROJECT_DIR$/skelbimai/public/css/vendor/owl.theme.default.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/public/fonts/flaticon-2/backup.txt" afterPath="$PROJECT_DIR$/skelbimai/public/css/fonts/flaticon-2/backup.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/public/fonts/flaticon-2/font/Flaticon.eot" afterPath="$PROJECT_DIR$/skelbimai/public/css/fonts/flaticon-2/font/Flaticon.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/public/fonts/flaticon-2/font/Flaticon.svg" afterPath="$PROJECT_DIR$/skelbimai/public/css/fonts/flaticon-2/font/Flaticon.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/public/fonts/flaticon-2/font/Flaticon.ttf" afterPath="$PROJECT_DIR$/skelbimai/public/css/fonts/flaticon-2/font/Flaticon.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/public/fonts/flaticon-2/font/Flaticon.woff" afterPath="$PROJECT_DIR$/skelbimai/public/css/fonts/flaticon-2/font/Flaticon.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/public/fonts/flaticon-2/font/Flaticon.woff2" afterPath="$PROJECT_DIR$/skelbimai/public/css/fonts/flaticon-2/font/Flaticon.woff2" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/public/fonts/flaticon-2/font/_flaticon.scss" afterPath="$PROJECT_DIR$/skelbimai/public/css/fonts/flaticon-2/font/_flaticon.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/public/fonts/flaticon-2/font/flaticon.css" afterPath="$PROJECT_DIR$/skelbimai/public/css/fonts/flaticon-2/font/flaticon.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/public/fonts/flaticon-2/font/flaticon.html" afterPath="$PROJECT_DIR$/skelbimai/public/css/fonts/flaticon-2/font/flaticon.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/public/fonts/flaticon-2/license/license.html" afterPath="$PROJECT_DIR$/skelbimai/public/css/fonts/flaticon-2/license/license.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/public/fonts/flaticon/backup.txt" afterPath="$PROJECT_DIR$/skelbimai/public/css/fonts/flaticon/backup.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/public/fonts/flaticon/font/Flaticon.eot" afterPath="$PROJECT_DIR$/skelbimai/public/css/fonts/flaticon/font/Flaticon.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/public/fonts/flaticon/font/Flaticon.svg" afterPath="$PROJECT_DIR$/skelbimai/public/css/fonts/flaticon/font/Flaticon.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/public/fonts/flaticon/font/Flaticon.ttf" afterPath="$PROJECT_DIR$/skelbimai/public/css/fonts/flaticon/font/Flaticon.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/public/fonts/flaticon/font/Flaticon.woff" afterPath="$PROJECT_DIR$/skelbimai/public/css/fonts/flaticon/font/Flaticon.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/public/fonts/flaticon/font/Flaticon.woff2" afterPath="$PROJECT_DIR$/skelbimai/public/css/fonts/flaticon/font/Flaticon.woff2" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/public/fonts/flaticon/font/_flaticon.scss" afterPath="$PROJECT_DIR$/skelbimai/public/css/fonts/flaticon/font/_flaticon.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/public/fonts/flaticon/font/flaticon.css" afterPath="$PROJECT_DIR$/skelbimai/public/css/fonts/flaticon/font/flaticon.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/public/fonts/flaticon/font/flaticon.html" afterPath="$PROJECT_DIR$/skelbimai/public/css/fonts/flaticon/font/flaticon.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/public/fonts/flaticon/license/license.pdf" afterPath="$PROJECT_DIR$/skelbimai/public/css/fonts/flaticon/license/license.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/public/fonts/icomoon/Read Me.txt" afterPath="$PROJECT_DIR$/skelbimai/public/css/fonts/icomoon/Read Me.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/public/fonts/icomoon/demo-files/demo.css" afterPath="$PROJECT_DIR$/skelbimai/public/css/fonts/icomoon/demo-files/demo.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/public/fonts/icomoon/demo-files/demo.js" afterPath="$PROJECT_DIR$/skelbimai/public/css/fonts/icomoon/demo-files/demo.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/public/fonts/icomoon/demo.html" afterPath="$PROJECT_DIR$/skelbimai/public/css/fonts/icomoon/demo.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/public/fonts/icomoon/fonts/icomoon.eot" afterPath="$PROJECT_DIR$/skelbimai/public/css/fonts/icomoon/fonts/icomoon.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/public/fonts/icomoon/fonts/icomoon.svg" afterPath="$PROJECT_DIR$/skelbimai/public/css/fonts/icomoon/fonts/icomoon.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/public/fonts/icomoon/fonts/icomoon.ttf" afterPath="$PROJECT_DIR$/skelbimai/public/css/fonts/icomoon/fonts/icomoon.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/public/fonts/icomoon/fonts/icomoon.woff" afterPath="$PROJECT_DIR$/skelbimai/public/css/fonts/icomoon/fonts/icomoon.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/public/fonts/icomoon/selection.json" afterPath="$PROJECT_DIR$/skelbimai/public/css/fonts/icomoon/selection.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/public/fonts/icomoon/style.css" afterPath="$PROJECT_DIR$/skelbimai/public/css/fonts/icomoon/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skelbimai/resources/sass/app.scss" afterPath="$PROJECT_DIR$/skelbimai/resources/scss/app.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/projektai.iml" afterPath="$PROJECT_DIR$/.idea/projektai.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skelbimai/app/Http/Controllers/HomeController.php" afterPath="$PROJECT_DIR$/skelbimai/app/Http/Controllers/HomeController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skelbimai/assets/about.html" afterPath="$PROJECT_DIR$/skelbimai/assets/about.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skelbimai/assets/blog-single.html" afterPath="$PROJECT_DIR$/skelbimai/assets/blog-single.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skelbimai/assets/blog.html" afterPath="$PROJECT_DIR$/skelbimai/assets/blog.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skelbimai/assets/contact.html" afterPath="$PROJECT_DIR$/skelbimai/assets/contact.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skelbimai/assets/index.html" afterPath="$PROJECT_DIR$/skelbimai/assets/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skelbimai/assets/listings-single.html" afterPath="$PROJECT_DIR$/skelbimai/assets/listings-single.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skelbimai/assets/listings.html" afterPath="$PROJECT_DIR$/skelbimai/assets/listings.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skelbimai/assets/login.html" afterPath="$PROJECT_DIR$/skelbimai/assets/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skelbimai/assets/register.html" afterPath="$PROJECT_DIR$/skelbimai/assets/register.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skelbimai/package-lock.json" afterPath="$PROJECT_DIR$/skelbimai/package-lock.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skelbimai/package.json" afterPath="$PROJECT_DIR$/skelbimai/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skelbimai/public/css/style.css" afterPath="$PROJECT_DIR$/skelbimai/public/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skelbimai/resources/views/skelbimai/main.blade.php" afterPath="$PROJECT_DIR$/skelbimai/resources/views/skelbimai/main.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skelbimai/resources/views/skelbimai/pages/home.blade.php" afterPath="$PROJECT_DIR$/skelbimai/resources/views/skelbimai/pages/home.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skelbimai/routes/web.php" afterPath="$PROJECT_DIR$/skelbimai/routes/web.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skelbimai/webpack.mix.js" afterPath="$PROJECT_DIR$/skelbimai/webpack.mix.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,116 +155,96 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="main.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/skelbimai/main.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="33" column="35" lean-forward="false" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/skelbimai/_partials/footer.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1040">
-              <caret line="52" column="9" lean-forward="false" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/skelbimai/_partials/header.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nav.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/skelbimai/_partials/nav.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skelbimai/assets/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="491">
-              <caret line="624" column="10" lean-forward="true" selection-start-line="608" selection-start-column="3" selection-end-line="624" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="adds.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/skelbimai/_partials/adds.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" column="105" lean-forward="false" selection-start-line="15" selection-start-column="105" selection-end-line="15" selection-end-column="105" />
-              <folding>
-                <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#3;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#4;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#5;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#6;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#7;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="blog.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/skelbimai/_partials/blog.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="categories.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/skelbimai/_partials/categories.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="newsletter.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/skelbimai/_partials/newsletter.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="16" column="6" lean-forward="false" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="testimonials.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/skelbimai/_partials/testimonials.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="14" column="34" lean-forward="false" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.4889868">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="main.blade.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/skelbimai/main.blade.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="320">
+                  <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="overlay.blade.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/skelbimai/_partials/overlay.blade.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="68" lean-forward="false" selection-start-line="0" selection-start-column="68" selection-end-line="0" selection-end-column="68" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="webpack.mix.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/skelbimai/webpack.mix.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="725">
+                  <caret line="42" column="34" lean-forward="false" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/skelbimai/public/css/fonts/icomoon/style.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="40">
+                  <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="home.blade.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/skelbimai/pages/home.blade.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="26" lean-forward="true" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="categories.blade.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/skelbimai/_partials/categories.blade.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="516">
+                  <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/skelbimai/assets/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="379">
+                  <caret line="624" column="10" lean-forward="false" selection-start-line="608" selection-start-column="3" selection-end-line="624" selection-end-column="10" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="HomeController.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/skelbimai/app/Http/Controllers/HomeController.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="280">
+                  <caret line="14" column="5" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="14" selection-end-column="5" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -137,10 +252,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/skelbimai/routes/web.php" />
-        <option value="$PROJECT_DIR$/skelbimai/app/Http/Controllers/HomeController.php" />
         <option value="$PROJECT_DIR$/skelbimai/resources/views/skelbimai/_partials/nav.blade.php" />
-        <option value="$PROJECT_DIR$/skelbimai/resources/views/skelbimai/pages/home.blade.php" />
         <option value="$PROJECT_DIR$/skelbimai/resources/views/skelbimai/_partials/header.blade.php" />
         <option value="$PROJECT_DIR$/skelbimai/resources/views/skelbimai/_partials/footer.blade.php" />
         <option value="$PROJECT_DIR$/skelbimai/resources/views/skelbimai/_partials/overlay.blade.php" />
@@ -149,8 +261,13 @@
         <option value="$PROJECT_DIR$/skelbimai/resources/views/skelbimai/_partials/blog.blade.php" />
         <option value="$PROJECT_DIR$/skelbimai/resources/views/skelbimai/_partials/adds.blade.php" />
         <option value="$PROJECT_DIR$/skelbimai/resources/views/skelbimai/_partials/testimonials.blade.php" />
-        <option value="$PROJECT_DIR$/skelbimai/resources/views/skelbimai/main.blade.php" />
         <option value="$PROJECT_DIR$/skelbimai/resources/views/skelbimai/_partials/newsletter.blade.php" />
+        <option value="$PROJECT_DIR$/skelbimai/routes/web.php" />
+        <option value="$PROJECT_DIR$/skelbimai/webpack.mix.js" />
+        <option value="$PROJECT_DIR$/skelbimai/resources/views/skelbimai/pages/home.blade.php" />
+        <option value="$PROJECT_DIR$/skelbimai/app/Http/Controllers/HomeController.php" />
+        <option value="$PROJECT_DIR$/skelbimai/resources/views/skelbimai/main.blade.php" />
+        <option value="$PROJECT_DIR$/skelbimai/public/css/main.blade.php" />
       </list>
     </option>
   </component>
@@ -159,6 +276,9 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/skelbimai/node_modules" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
@@ -203,12 +323,6 @@
               <item name="projektai" type="b2602c69:ProjectViewProjectNode" />
               <item name="projektai" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="skelbimai" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="projektai" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projektai" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="skelbimai" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -222,13 +336,6 @@
               <item name="projektai" type="b2602c69:ProjectViewProjectNode" />
               <item name="projektai" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="skelbimai" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="images" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="projektai" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projektai" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="skelbimai" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -245,24 +352,6 @@
               <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="skelbimai" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="projektai" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projektai" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="skelbimai" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="skelbimai" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="_partials" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="projektai" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projektai" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="skelbimai" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="skelbimai" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="pages" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -277,14 +366,15 @@
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.vagrant" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\moksleivis\projektai\skelbimai\public" />
+      <recent name="C:\Users\moksleivis\projektai\skelbimai\resources\views\skelbimai" />
       <recent name="C:\Users\moksleivis\projektai\skelbimai\public\css" />
-      <recent name="C:\Users\moksleivis\projektai\skelbimai\public\js" />
-      <recent name="C:\Users\moksleivis\projektai\skelbimai\assets" />
-      <recent name="C:\Users\moksleivis\projektai\skelbimai\resources\views" />
+      <recent name="C:\Users\moksleivis\projektai\skelbimai\public" />
+      <recent name="C:\Users\moksleivis\projektai\skelbimai\public\css\vendor" />
+      <recent name="C:\Users\moksleivis\projektai\skelbimai\resources\scss" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -309,53 +399,53 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580811319104</updated>
-      <workItem from="1580811321631" duration="7748000" />
+      <workItem from="1580811321631" duration="8259000" />
+      <workItem from="1580968392023" duration="8996000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7748000" />
+    <option name="totallyTimeSpent" value="17255000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15298508" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25652173" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25652173" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15298508" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -369,112 +459,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/skelbimai/pages/home.php">
+    <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/skelbimai/main.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skelbimai/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/welcome.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/profile.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skelbimai/app/Http/Controllers/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skelbimai/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/skelbimai/_partials/overlay.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="68" lean-forward="false" selection-start-line="0" selection-start-column="68" selection-end-line="0" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/skelbimai/pages/home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="19" lean-forward="true" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/skelbimai/_partials/trends.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="69" column="101" lean-forward="false" selection-start-line="69" selection-start-column="101" selection-end-line="69" selection-end-column="101" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/skelbimai/_partials/adds.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="105" lean-forward="false" selection-start-line="15" selection-start-column="105" selection-end-line="15" selection-end-column="105" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#3;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#4;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#5;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#6;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#7;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/skelbimai/_partials/blog.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/skelbimai/_partials/categories.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+        <state relative-caret-position="660">
+          <caret line="33" column="35" lean-forward="false" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
           <folding />
         </state>
       </provider>
@@ -489,7 +477,102 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/skelbimai/_partials/header.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
+        <state relative-caret-position="840">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/skelbimai/_partials/nav.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skelbimai/assets/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12480">
+          <caret line="624" column="10" lean-forward="true" selection-start-line="608" selection-start-column="3" selection-end-line="624" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/skelbimai/_partials/blog.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/skelbimai/_partials/categories.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1240">
+          <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/skelbimai/_partials/newsletter.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="6" lean-forward="false" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/skelbimai/_partials/testimonials.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="34" lean-forward="false" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/skelbimai/pages/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="19" lean-forward="true" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/skelbimai/pages/home.php" />
+    <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/welcome.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/profile.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/skelbimai/_partials/trends.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="69" column="101" lean-forward="false" selection-start-line="69" selection-start-column="101" selection-end-line="69" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/skelbimai/_partials/blog.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/skelbimai/_partials/header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
           <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding />
         </state>
@@ -511,26 +594,129 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/skelbimai/main.blade.php">
+    <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/skelbimai/_partials/newsletter.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="33" column="35" lean-forward="false" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
+        <state relative-caret-position="320">
+          <caret line="16" column="6" lean-forward="false" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/skelbimai/_partials/footer.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="52" column="9" lean-forward="false" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skelbimai/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skelbimai/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skelbimai/app/Http/Controllers/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="e#40#97#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/skelbimai/_partials/overlay.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="68" lean-forward="false" selection-start-line="0" selection-start-column="68" selection-end-line="0" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skelbimai/app/Http/Controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="5" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="14" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skelbimai/public/css/fonts/icomoon/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/skelbimai/assets/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="624" column="10" lean-forward="true" selection-start-line="608" selection-start-column="3" selection-end-line="624" selection-end-column="10" />
+        <state relative-caret-position="379">
+          <caret line="624" column="10" lean-forward="false" selection-start-line="608" selection-start-column="3" selection-end-line="624" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/skelbimai/_partials/newsletter.blade.php">
+    <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/skelbimai/_partials/categories.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/skelbimai/_partials/adds.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="51" column="82" lean-forward="false" selection-start-line="51" selection-start-column="82" selection-end-line="51" selection-end-column="82" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#a#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#a#0;n#div#3;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#a#0;n#div#4;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skelbimai/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skelbimai/webpack.mix.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="42" column="34" lean-forward="false" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/skelbimai/main.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
-          <caret line="16" column="6" lean-forward="false" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+          <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/skelbimai/pages/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="26" lean-forward="true" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
           <folding />
         </state>
       </provider>
