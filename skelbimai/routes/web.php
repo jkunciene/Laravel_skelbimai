@@ -19,10 +19,11 @@ Route::get('/contact/', 'HomeController@contact');
 Route::get('/ad_form/', 'AdController@adForm');
 Route::get('/category_form/', 'CategoryController@adCategory'); /*parodo html forma*/
 Route::get('/category_management/', 'CategoryController@categoryManagement'); /*parodo html forma*/
+Route::get('/ad_management/', 'AdController@adManagement'); /*parodo html forma*/
 Route::get('/category_delete/{category}', 'CategoryController@categoryDelete'); /*parodo html forma*/
 
 Route::post('/store_category/', 'CategoryController@storeCategory'); /*parodo html forma*/
+Route::post('/store_ad/', 'AdController@storeAd'); /*parodo html forma*/
 
 /*pirma pages pavadinimas 2-funkcijos*/
-
 

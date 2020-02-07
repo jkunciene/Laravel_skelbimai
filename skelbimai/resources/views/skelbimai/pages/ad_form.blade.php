@@ -26,13 +26,23 @@
         <div class="container">
             <div class="row">
                 <div class="col-md mb-5" data-aos="fade">
+                    @if($errors->any())
+                        <div class="alert alert-danger">
+                            <ul>
+                                @foreach($errors->all() as $error)
+                                    <li>{{$error}}</li>
+                                @endforeach
+                            </ul>
 
+                        </div>
+                    @endif
 
-                    <form action="#" class="p-5 bg-white">
+                    <form method="post" action="/store_ad" class="p-5 bg-white">
+                        @csrf
                         <div class="row form-group">
                             <div class="col-md-12">
                                 <label class="text-black" for="kategorijos">Category</label>
-                                <select class="custom-select">
+                                <select name="kategorijos" class="custom-select">
                                     @foreach($categories as $category)
                                     <option value="{{$category->id}}">{{$category->name}}</option>
                                     @endforeach;
@@ -43,21 +53,21 @@
 
                             <div class="col-md-12">
                                 <label class="text-black" for="pavadinimas">Title</label>
-                                <input type="text" id="pavadinimas" name="title" class="form-control">
+                                <input type="text" id="pavadinimas" name="pavadinimas" class="form-control">
                             </div>
                         </div>
 
                         <div class="row form-group">
                             <div class="col-md-12">
                                 <label class="text-black" for="aprasymas">Description</label>
-                                <textarea name="description" id="aprasymas" cols="30" rows="7" class="form-control"
+                                <textarea name="aprasymas" id="aprasymas" cols="30" rows="7" class="form-control"
                                           placeholder="Write your description here..."></textarea>
                             </div>
                         </div>
                         <div class="row form-group">
                             <div class="col-md-12">
                                 <label class="text-black" for="nuotraukos">IMG</label>
-                                <input type="file" name="img" id="nuotraukos" class="form-control">
+                                <input type="file" name="nuotraukos" id="nuotraukos" class="form-control">
                             </div>
                         </div>
 
@@ -65,7 +75,7 @@
 
                             <div class="col-md-12">
                                 <label class="text-black" for="kaina">Price</label>
-                                <input type="text" id="kaina" name="price" class="form-control">
+                                <input type="text" id="kaina" name="kaina" class="form-control">
                             </div>
                         </div>
                         <div class="row form-group">
@@ -77,13 +87,13 @@
                         <div class="row form-group">
                             <div class="col-md-12">
                                 <label class="text-black" for="telefonoNr">Phone</label>
-                                <input type="email" id="telefonoNr" name="phone" class="form-control">
+                                <input type="text" id="telefonoNr" name="tel" class="form-control">
                             </div>
                         </div>
                         <div class="row form-group">
                             <div class="col-md-12">
                                 <label class="text-black" for="vieta">Location</label>
-                                <input type="email" id="vieta" name="location" class="form-control">
+                                <input type="text" id="vieta" name="vieta" class="form-control">
                             </div>
                         </div>
 
