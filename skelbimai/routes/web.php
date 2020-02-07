@@ -17,7 +17,9 @@ Route::get('/ad/', 'HomeController@showAd');
 Route::get('/about/', 'HomeController@about');
 Route::get('/contact/', 'HomeController@contact');
 Route::get('/ad_form/', 'AdController@adForm');
-Route::get('/category_form/', 'CategoryController@adCategory');
+Route::get('/category_form/', 'CategoryController@adCategory'); /*parodo html forma*/
+Route::post('/store_category/', 'CategoryController@storeCategory'); /*parodo html forma*/
+
 /*pirma pages pavadinimas 2-funkcijos*/
 
 

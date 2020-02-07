@@ -2,29 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d601258-062e-4c30-b96b-9fb199752778" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/tmp/twig/1e/1e5091e3ea38f3865373f9410368164ddb6eb0834b3f9665a0c279d4a0f1f0ed.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/tmp/twig/29/29b283ca019d81da48462fc3fc3b13df910d3a8f6c33ca9056cd61ce396783ff.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/tmp/twig/43/4382c077f009999efaa33bbb061042c14d73f8a31fed6483de05889552ce1c5d.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/tmp/twig/47/47d3b6b9cbb4f6d6892d689e329b20706b021af811f45a430904a64f89520bbf.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/tmp/twig/4e/4e99f83b49b94f89828c467d73f7729446e9b553864b4e7bba2db3bc1434df74.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/tmp/twig/60/60a9d4ca2c1733c12a7b80786d3149959d9bcd57d2c4fe93fda147923aa251eb.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/tmp/twig/60/60b058ea5908758ccaa92e2759a4ffe3bcf2d9944d8d1652790ce5044cb2e342.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/tmp/twig/65/6562def66143f0109c9fe4f140a916a9c86b243225ec940adbe1de6b7c3203a5.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/tmp/twig/8c/8cb0851f5f7e400c25cc1cfce14ec7223123d7fc254b49b627cec87f9dfbc45b.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/tmp/twig/8f/8f81e342e5d3c432d158b3a321eb4286d01cdc358fab8014dbc01f8d7a5cd41c.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/tmp/twig/9c/9c559364f04cbf51520847d08def978cc1cc80974dd964d09e7593b17c82525b.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/tmp/twig/b8/b86ba96f948986966ffc916dc5b0fa2eed5251fa4a185328d427c135c7cae128.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/tmp/twig/c4/c4f76a50a9b65c1507c1bd35a8d32535a64a292ad0d5f57c443835ea1437c970.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/tmp/twig/ca/ca4e9f36b3a3abff1fe1c633b12973db3d8d65c6d4864b5e961d49e6f19a1731.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skelbimai/app/Ad.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skelbimai/app/Category.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skelbimai/app/Http/Controllers/AdController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skelbimai/app/Http/Controllers/CategoryController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skelbimai/resources/views/skelbimai/pages/ad_form.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skelbimai/resources/views/skelbimai/pages/category_form.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/projektai.iml" afterPath="$PROJECT_DIR$/.idea/projektai.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skelbimai/resources/views/skelbimai/pages/store_category.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skelbimai/app/Http/Controllers/HomeController.php" afterPath="$PROJECT_DIR$/skelbimai/app/Http/Controllers/HomeController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skelbimai/app/Http/Controllers/CategoryController.php" afterPath="$PROJECT_DIR$/skelbimai/app/Http/Controllers/CategoryController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skelbimai/resources/views/skelbimai/pages/category_form.blade.php" afterPath="$PROJECT_DIR$/skelbimai/resources/views/skelbimai/pages/category_form.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skelbimai/routes/web.php" afterPath="$PROJECT_DIR$/skelbimai/routes/web.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,16 +27,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomeController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skelbimai/app/Http/Controllers/HomeController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AdController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/skelbimai/app/Http/Controllers/AdController.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -69,8 +40,8 @@
       <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/skelbimai/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="19" column="60" lean-forward="false" selection-start-line="19" selection-start-column="60" selection-end-line="19" selection-end-column="60" />
+            <state relative-caret-position="220">
+              <caret line="20" column="65" lean-forward="false" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="65" />
               <folding />
             </state>
           </provider>
@@ -79,24 +50,26 @@
       <file leaf-file-name="CategoryController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/skelbimai/app/Http/Controllers/CategoryController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="30" />
+            <state relative-caret-position="320">
+              <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="category_form.blade.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="category_form.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/skelbimai/pages/category_form.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" column="102" lean-forward="false" selection-start-line="2" selection-start-column="102" selection-end-line="2" selection-end-column="102" />
-              <folding />
+            <state relative-caret-position="260">
+              <caret line="31" column="30" lean-forward="true" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+              <folding>
+                <element signature="e#107#156#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Category.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Category.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/skelbimai/app/Category.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -153,9 +126,9 @@
         <option value="$PROJECT_DIR$/skelbimai/.env" />
         <option value="$PROJECT_DIR$/skelbimai/app/Http/Controllers/HomeController.php" />
         <option value="$PROJECT_DIR$/skelbimai/app/Http/Controllers/AdController.php" />
-        <option value="$PROJECT_DIR$/skelbimai/app/Http/Controllers/CategoryController.php" />
-        <option value="$PROJECT_DIR$/skelbimai/routes/web.php" />
         <option value="$PROJECT_DIR$/skelbimai/resources/views/skelbimai/pages/ad_form.blade.php" />
+        <option value="$PROJECT_DIR$/skelbimai/routes/web.php" />
+        <option value="$PROJECT_DIR$/skelbimai/app/Http/Controllers/CategoryController.php" />
         <option value="$PROJECT_DIR$/skelbimai/resources/views/skelbimai/pages/category_form.blade.php" />
       </list>
     </option>
@@ -394,7 +367,7 @@
       <updated>1580811319104</updated>
       <workItem from="1580811321631" duration="8259000" />
       <workItem from="1580968392023" duration="21888000" />
-      <workItem from="1581055740728" duration="3500000" />
+      <workItem from="1581055740728" duration="4962000" />
     </task>
     <task id="LOCAL-00001" summary="sumixinta">
       <created>1580978392888</created>
@@ -431,11 +404,18 @@
       <option name="project" value="LOCAL" />
       <updated>1580994627646</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="model Ad ir Category">
+      <created>1581059266739</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1581059266739</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33647000" />
+    <option name="totallyTimeSpent" value="35109000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -490,14 +470,14 @@
     <MESSAGE value="puslapiai sutvarkyti" />
     <MESSAGE value="create table" />
     <MESSAGE value="php artisan migrate" />
-    <option name="LAST_COMMIT_MESSAGE" value="php artisan migrate" />
+    <MESSAGE value="model Ad ir Category" />
+    <option name="LAST_COMMIT_MESSAGE" value="model Ad ir Category" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/skelbimai/_partials/nav.blade.php" />
     <entry file="file://$PROJECT_DIR$/skelbimai/assets/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="12480">
@@ -728,50 +708,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/skelbimai/app/Http/Controllers/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/skelbimai/app/Http/Controllers/AdController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skelbimai/app/Http/Controllers/CategoryController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skelbimai/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="19" column="60" lean-forward="false" selection-start-line="19" selection-start-column="60" selection-end-line="19" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/skelbimai/pages/ad_form.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="102" lean-forward="false" selection-start-line="2" selection-start-column="102" selection-end-line="2" selection-end-column="102" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/skelbimai/pages/category_form.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="102" lean-forward="false" selection-start-line="2" selection-start-column="102" selection-end-line="2" selection-end-column="102" />
           <folding />
         </state>
       </provider>
@@ -784,11 +724,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/skelbimai/pages/store_category.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skelbimai/app/Http/Controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/skelbimai/pages/ad_form.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="102" lean-forward="false" selection-start-line="2" selection-start-column="102" selection-end-line="2" selection-end-column="102" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/skelbimai/app/Category.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skelbimai/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="20" column="65" lean-forward="false" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skelbimai/app/Http/Controllers/CategoryController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/skelbimai/pages/category_form.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="31" column="30" lean-forward="true" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+          <folding>
+            <element signature="e#107#156#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
