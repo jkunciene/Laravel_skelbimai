@@ -1,6 +1,6 @@
 @extends('skelbimai/main')
 @section('content')
-    <div class="site-blocks-cover inner-page-cover overlay" style="background-image: url(images/hero_1.jpg);"
+    <div class="site-blocks-cover inner-page-cover overlay" style="background-image: url(images/hater.png);"
          data-aos="fade" data-stellar-background-ratio="0.5">
         <div class="container">
             <div class="row align-items-center justify-content-center text-center">
@@ -29,7 +29,16 @@
 
 
                     <form action="#" class="p-5 bg-white">
-
+                        <div class="row form-group">
+                            <div class="col-md-12">
+                                <label class="text-black" for="kategorijos">Category</label>
+                                <select class="custom-select">
+                                    @foreach($categories as $category)
+                                    <option value="{{$category->id}}">{{$category->name}}</option>
+                                    @endforeach;
+                                </select>
+                            </div>
+                        </div>
                         <div class="row form-group">
 
                             <div class="col-md-12">
@@ -77,15 +86,7 @@
                                 <input type="email" id="vieta" name="location" class="form-control">
                             </div>
                         </div>
-                        <div class="row form-group">
-                            <div class="col-md-12">
-                                <label class="text-black" for="kategorijos">Category</label>
-                                <select class="custom-select">
-                                    <option value="">reiksme</option>
-                                    <option value="">reiksme</option>
-                                </select>
-                            </div>
-                        </div>
+
                         <div class="row form-group">
                             <div class="col-md-12">
                                 <input type="submit" value="Add ad" class="btn btn-primary py-2 px-4 text-white">
