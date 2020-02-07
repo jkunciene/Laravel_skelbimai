@@ -36,6 +36,7 @@
                                 <a href="#" class="bookmark"><span class="icon-heart"></span></a>
                                 <h3><a href="#">{{$ad->title}}</a></h3>
                                 <p>{{$ad->price}}</p>
+                                <p>{{$ad->category}}</p>
                                 <address>{{$ad->location}}</address>
                                 <p class="mb-0">
                                     <span class="icon-star text-warning"></span>

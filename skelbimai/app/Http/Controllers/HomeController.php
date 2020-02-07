@@ -12,7 +12,7 @@ class HomeController extends Controller
     }
 
     public function ads(){
-        $ads = Ad::all();
+        $ads = Ad::select('ads.id', 'ads.title', 'ads.description','ads.price','ads.email', 'ads.phone', 'ads.location', 'categories.name as category'  )->join('categories', 'categories.id', "=",'ads.catid' )->get();
         return view ('skelbimai.pages.ads', compact('ads'));
 
     }
