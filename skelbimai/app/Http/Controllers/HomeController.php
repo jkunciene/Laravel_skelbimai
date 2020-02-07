@@ -22,4 +22,5 @@ class HomeController extends Controller
     public function contact(){
         return view('skelbimai.pages.contact');
     }
+
 }
