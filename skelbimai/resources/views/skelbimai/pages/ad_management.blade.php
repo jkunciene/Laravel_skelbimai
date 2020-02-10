@@ -46,8 +46,8 @@
                             <td>{{$ad->description}}</td>
                             <td>{{$ad->price}}</td>
                             <td>{{$ad->location}}</td>
-                                <th><a href="/ad_update/{{$ad->id}}" class="btn btn-danger">Koreguoti</a></th>
-                                <th><a href="/ad_delete/{{$ad->id}}" class="btn btn-danger">Salinti</a></th>
+                                <td><a href="/ad_update/{{$ad->id}}" class="btn btn-danger">Koreguoti</a></td>
+                                <td><a href="/ad_delete/{{$ad->id}}" class="btn btn-danger">Salinti</a></td>
                         </tr>
                         @endforeach
                         </tbody>

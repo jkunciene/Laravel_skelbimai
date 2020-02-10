@@ -47,4 +47,14 @@ class AdController extends Controller
         ]);
         return redirect('/ads');
     }
+
+    public function adDelete(Ad $ad)
+    {
+        $ad->delete();
+        return redirect('/ad_management');
+    }
+    public function adUpdate(Ad $ad)   {
+
+        return view('skelbimai.pages.ad_update', compact('ad'));
+    }
 }
