@@ -57,4 +57,26 @@ class AdController extends Controller
 
         return view('skelbimai.pages.ad_update', compact('ad'));
     }
+    public function adUpdate2(Request $request){
+        $validateDate = $request->validate([
+            'kategorijos' =>  'required',
+            'pavadinimas' => 'required',
+            'aprasymas' => 'required',
+            'kaina'=> 'required',
+            'email'=> 'required',
+            'vieta'=> 'required'
+
+            //pildomos formos name reiksme
+        ]);
+            Ad::where ('id', request('id'))->
+            update(['title'=> request('pavadinimas'),
+                'description'=>request('aprasymas'),
+                'price' => request('kaina'),
+                'email' => request('email'),
+                'phone' => request('tel'),
+                'location' => request('vieta'),
+                'catid' => request('kategorijos')]);
+
+            return redirect('/ad_management');
+    }
 }

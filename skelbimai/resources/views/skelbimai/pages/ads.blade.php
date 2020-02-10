@@ -51,11 +51,6 @@
 
                     </div>
 @endforeach
-
-
-
-
-
                 </div>
 
               {{$ads->links()}}

@@ -9,8 +9,11 @@ class HomeController extends Controller
 {
     public function index()
     {
+        $ads = Ad::select('ads.id', 'ads.title', 'ads.description', 'ads.price', 'ads.email',
+            'ads.phone', 'ads.location', 'categories.name as category')
+            ->join('categories', 'categories.id', "=", 'ads.catid')->get();
 
-        return view('skelbimai.pages.home');
+        return view('skelbimai.pages.home', compact('ads'));
     }
 
     public function ads()
@@ -18,6 +21,7 @@ class HomeController extends Controller
         $ads = Ad::select('ads.id', 'ads.title', 'ads.description', 'ads.price', 'ads.email',
             'ads.phone', 'ads.location', 'categories.name as category')
             ->join('categories', 'categories.id', "=", 'ads.catid')->paginate(2);
+//        dd($ads);
         return view('skelbimai.pages.ads', compact('ads'));
 
     }

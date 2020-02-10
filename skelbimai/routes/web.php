@@ -27,6 +27,7 @@ Route::get('/ad_update/{ad}', 'AdController@adUpdate');
 
 Route::post('/store_category/', 'CategoryController@storeCategory'); /*parodo html forma*/
 Route::post('/store_ad/', 'AdController@storeAd'); /*parodo html forma*/
+Route::post('/ad_update2/{ad}', 'AdController@adUpdate2'); /*parodo html forma*/
 
 /*pirma pages pavadinimas 2-funkcijos*/
 
