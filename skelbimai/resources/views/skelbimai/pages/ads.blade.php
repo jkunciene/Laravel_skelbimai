@@ -34,7 +34,7 @@
                             <div class="lh-content">
                                 <span class="category">{{$ad->id}}</span>
                                 <a href="#" class="bookmark"><span class="icon-heart"></span></a>
-                                <h3><a href="#">{{$ad->title}}</a></h3>
+                                <a href="/ad/{{$ad->id}}"><h3>{{$ad->title}}</h3></a>
                                 <p>{{$ad->price}}</p>
                                 <p>{{$ad->category}}</p>
                                 <address>{{$ad->location}}</address>
@@ -58,15 +58,7 @@
 
                 </div>
 
-                <div class="col-12 mt-5 text-center">
-                    <div class="custom-pagination">
-                        <span>1</span>
-                        <a href="#">2</a>
-                        <a href="#">3</a>
-                        <span class="more-page">...</span>
-                        <a href="#">10</a>
-                    </div>
-                </div>
+              {{$ads->links()}}
 
             </div>
             <div class="col-lg-3 ml-auto">
