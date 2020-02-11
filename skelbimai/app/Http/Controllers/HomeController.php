@@ -48,8 +48,10 @@ class HomeController extends Controller
         $ads = Ad::where('title', 'LIKE', '%'.request('search').'%')
             ->where('location', 'LIKE', '%'.request('location').'%')
             ->where('catid', 'LIKE', '%'.request('categoryId').'%')
+
             ->get();
-        //dd($ads);
+
+
 
         return view ('skelbimai.pages.search', compact('ads'));
     }

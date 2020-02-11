@@ -36,6 +36,7 @@
 
                                             <option value="">All Categories</option>
                                             @foreach($categories as $category)
+
                                             <option value="{{$category->id}}">{{$category->name}}</option>
 
                                                 @endforeach
