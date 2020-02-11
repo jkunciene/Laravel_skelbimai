@@ -46,7 +46,8 @@ class HomeController extends Controller
     public function searchAction(Request $request){
 
         $ads = Ad::where('title', 'LIKE', '%'.request('search').'%')
-            ->where
+            ->where('location', 'LIKE', '%'.request('location').'%')
+            ->where('catid', 'LIKE', '%'.request('categoryId').'%')
             ->get();
         //dd($ads);
 
