@@ -15,29 +15,30 @@
                     </div>
 
                     <div class="form-search-wrap mb-3" data-aos="fade-up" data-aos-delay="200">
-                        <form method="post">
+                        <form method="get" action="/search_action">
+                            @csrf
                             <div class="row align-items-center">
                                 <div class="col-lg-12 mb-4 mb-xl-0 col-xl-4">
-                                    <input type="text" class="form-control rounded" placeholder="What are you looking for?">
+                                    <input type="text" class="form-control rounded" name="search" placeholder="What are you looking for?">
                                 </div>
                                 <div class="col-lg-12 mb-4 mb-xl-0 col-xl-3">
                                     <div class="wrap-icon">
                                         <span class="icon icon-room"></span>
-                                        <input type="text" class="form-control rounded" placeholder="Location">
+                                        <input type="text" class="form-control rounded" name="location" placeholder="Location">
                                     </div>
 
                                 </div>
                                 <div class="col-lg-12 mb-4 mb-xl-0 col-xl-3">
                                     <div class="select-wrap">
                                         <span class="icon"><span class="icon-keyboard_arrow_down"></span></span>
-                                        <select class="form-control rounded" name="" id="">
+
+                                        <select class="form-control rounded" name="categoryId" id="">
+
                                             <option value="">All Categories</option>
-                                            <option value="">Real Estate</option>
-                                            <option value="">Books &amp;  Magazines</option>
-                                            <option value="">Furniture</option>
-                                            <option value="">Electronics</option>
-                                            <option value="">Cars &amp; Vehicles</option>
-                                            <option value="">Others</option>
+                                            @foreach($categories as $category)
+                                            <option value="{{$category->id}}">{{$category->name}}</option>
+
+                                                @endforeach
                                         </select>
                                     </div>
                                 </div>
@@ -52,10 +53,9 @@
                     <div class="row text-left trending-search" data-aos="fade-up"  data-aos-delay="300">
                         <div class="col-12">
                             <h2 class="d-inline-block">Trending Search:</h2>
-                            <a href="#">iPhone</a>
-                            <a href="#">Cars</a>
-                            <a href="#">Flowers</a>
-                            <a href="#">House</a>
+                            @foreach($categories as $category)
+                            <a href="#">{{$category->name}}</a>
+                            @endforeach
                         </div>
                     </div>
 

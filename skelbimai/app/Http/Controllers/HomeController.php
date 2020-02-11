@@ -1,19 +1,22 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use App\Category;
 use App\Ad;
 use Illuminate\Http\Request;
+
 
 class HomeController extends Controller
 {
     public function index()
     {
+
         $ads = Ad::select('ads.id', 'ads.title', 'ads.description', 'ads.price', 'ads.email',
             'ads.phone', 'ads.location', 'categories.name as category')
             ->join('categories', 'categories.id', "=", 'ads.catid')->get();
+        $categories = Category::all();
+        return view('skelbimai.pages.home', compact('ads'), compact('categories'));
 
-        return view('skelbimai.pages.home', compact('ads'));
     }
 
     public function ads()
@@ -40,5 +43,14 @@ class HomeController extends Controller
     {
         return view('skelbimai.pages.contact');
     }
+    public function searchAction(Request $request){
 
+        $ads = Ad::where('title', 'LIKE', '%'.request('search').'%')
+            ->where
+            ->get();
+        //dd($ads);
+
+        return view ('skelbimai.pages.search', compact('ads'));
+    }
 }
+
