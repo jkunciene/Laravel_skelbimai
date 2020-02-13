@@ -37,7 +37,7 @@
                         </div>
                     @endif
 
-                    <form method="post" action="/ad_update2/{{$ad->id}}" class="p-5 bg-white">
+                    <form method="post" action="/ad_update2/{{$ad->id}}" enctype="multipart/form-data"  class="p-5 bg-white">
                         @csrf
                         <input name="id" type="hidden" value="{{$ad->id}}">
                         <div class="row form-group">
@@ -58,13 +58,14 @@
                         <div class="row form-group">
                             <div class="col-md-12">
                                 <label class="text-black" for="aprasymas">Description</label>
-                                <textarea name="aprasymas" id="aprasymas" "cols="30" rows="7" class="form-control">{{$ad->description}} </textarea>
+                                <textarea name="aprasymas" id="aprasymas" cols="30" rows="7" class="form-control">{{$ad->description}} </textarea>
                             </div>
                         </div>
                         <div class="row form-group">
                             <div class="col-md-12">
                                 <label class="text-black" for="nuotraukos">IMG</label>
                                 <input type="file" name="nuotraukos" id="nuotraukos" class="form-control">
+                                <div><img src="{{asset('storage/'.$ad->img)}}" alt="Image" class="img-fluid rounded"></div>
                             </div>
                         </div>
 

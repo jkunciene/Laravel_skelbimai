@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Ad;
 use App\Category;
 use Illuminate\Http\Request;
+use File;
 
 class AdController extends Controller
 {
@@ -63,17 +64,19 @@ class AdController extends Controller
 
         return view('skelbimai.pages.ad_update', compact('ad'));
     }
-    public function adUpdate2(Request $request){
+    public function adUpdate2(Ad $ad, Request $request){
         $validateDate = $request->validate([
             'kategorijos' =>  'required',
             'pavadinimas' => 'required',
             'aprasymas' => 'required',
             'kaina'=> 'required',
             'email'=> 'required',
-            'vieta'=> 'required'
+            'vieta'=> 'required',
+            'nuotraukos' => 'mimes:jpeg, jpg, png, gift|required|max:10000'
 
             //pildomos formos name reiksme
         ]);
+
             Ad::where ('id', request('id'))->
             update(['title'=> request('pavadinimas'),
                 'description'=>request('aprasymas'),
@@ -81,7 +84,16 @@ class AdController extends Controller
                 'email' => request('email'),
                 'phone' => request('tel'),
                 'location' => request('vieta'),
-                'catid' => request('kategorijos')]);
+                'catid' => request('kategorijos'),
+              ]);
+            if($request->hasFile('nuotraukos')){
+                File::delete(storage_path('/app/public/'.$ad->img));
+                $path = $request->file("nuotraukos")->store("public/images");
+                $filename = str_replace("public/", "", $path);
+                Ad::where('id', $ad->id)->update([
+                    'img' =>$filename
+                ]);
+            }
 
             return redirect('/ad_management');
     }
