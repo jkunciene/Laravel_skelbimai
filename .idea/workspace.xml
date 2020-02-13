@@ -2,9 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d601258-062e-4c30-b96b-9fb199752778" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skelbimai/resources/js/components/ExampleComponent.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skelbimai/resources/sass/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skelbimai/resources/sass/app.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skelbimai/resources/views/auth/login.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skelbimai/resources/views/auth/passwords/confirm.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skelbimai/resources/views/auth/passwords/email.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skelbimai/resources/views/auth/passwords/reset.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skelbimai/resources/views/auth/register.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skelbimai/resources/views/auth/verify.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skelbimai/resources/views/home.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skelbimai/resources/views/layouts/app.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skelbimai/app/Http/Controllers/AdController.php" afterPath="$PROJECT_DIR$/skelbimai/app/Http/Controllers/AdController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skelbimai/resources/views/skelbimai/pages/ad_update.blade.php" afterPath="$PROJECT_DIR$/skelbimai/resources/views/skelbimai/pages/ad_update.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skelbimai/app/Http/Controllers/HomeController.php" afterPath="$PROJECT_DIR$/skelbimai/app/Http/Controllers/HomeController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skelbimai/app/Providers/RouteServiceProvider.php" afterPath="$PROJECT_DIR$/skelbimai/app/Providers/RouteServiceProvider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skelbimai/composer.json" afterPath="$PROJECT_DIR$/skelbimai/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skelbimai/composer.lock" afterPath="$PROJECT_DIR$/skelbimai/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skelbimai/package-lock.json" afterPath="$PROJECT_DIR$/skelbimai/package-lock.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skelbimai/package.json" afterPath="$PROJECT_DIR$/skelbimai/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skelbimai/public/css/vendor.css" afterPath="$PROJECT_DIR$/skelbimai/public/css/vendor.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skelbimai/resources/js/app.js" afterPath="$PROJECT_DIR$/skelbimai/resources/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skelbimai/resources/js/bootstrap.js" afterPath="$PROJECT_DIR$/skelbimai/resources/js/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skelbimai/resources/views/skelbimai/_partials/header.blade.php" afterPath="$PROJECT_DIR$/skelbimai/resources/views/skelbimai/_partials/header.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skelbimai/routes/web.php" afterPath="$PROJECT_DIR$/skelbimai/routes/web.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skelbimai/webpack.mix.js" afterPath="$PROJECT_DIR$/skelbimai/webpack.mix.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,65 +39,93 @@
       <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/skelbimai/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="30" column="25" lean-forward="false" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+            <state relative-caret-position="560">
+              <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/skelbimai/app/Http/Controllers/AdController.php">
+      <file leaf-file-name="header.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/skelbimai/_partials/header.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="76" column="42" lean-forward="true" selection-start-line="76" selection-start-column="42" selection-end-line="76" selection-end-column="42" />
-              <folding>
-                <element signature="e#40#51#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ads.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/skelbimai/pages/ads.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="32" column="134" lean-forward="false" selection-start-line="32" selection-start-column="99" selection-end-line="32" selection-end-column="134" />
-              <folding>
-                <element signature="e#1113#1174#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ad.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/skelbimai/pages/ad.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="28" column="115" lean-forward="false" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="115" />
+            <state relative-caret-position="480">
+              <caret line="24" column="34" lean-forward="false" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ad_form.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/skelbimai/pages/ad_form.blade.php">
+      <file leaf-file-name="LoginController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/skelbimai/app/Http/Controllers/Auth/LoginController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="39" column="89" lean-forward="false" selection-start-line="39" selection-start-column="59" selection-end-line="39" selection-end-column="89" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ad_update.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/skelbimai/pages/ad_update.blade.php">
+      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/skelbimai/app/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="860">
-              <caret line="67" column="123" lean-forward="false" selection-start-line="67" selection-start-column="123" selection-end-line="67" selection-end-column="123" />
+            <state relative-caret-position="-160">
+              <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
               <folding>
-                <element signature="e#107#157#0#HTML" expanded="true" />
+                <element signature="e#23#69#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomeController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/skelbimai/app/Http/Controllers/HomeController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-248">
+              <caret line="14" column="34" lean-forward="false" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+              <folding>
+                <element signature="e#39#56#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RouteServiceProvider.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/skelbimai/app/Providers/RouteServiceProvider.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="23" column="39" lean-forward="false" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/auth/login.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/auth/register.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="verify.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/auth/verify.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -97,7 +146,6 @@
         <option value="$PROJECT_DIR$/skelbimai/resources/views/skelbimai/_partials/blog.blade.php" />
         <option value="$PROJECT_DIR$/skelbimai/resources/views/skelbimai/_partials/testimonials.blade.php" />
         <option value="$PROJECT_DIR$/skelbimai/resources/views/skelbimai/_partials/newsletter.blade.php" />
-        <option value="$PROJECT_DIR$/skelbimai/webpack.mix.js" />
         <option value="$PROJECT_DIR$/skelbimai/public/css/main.blade.php" />
         <option value="$PROJECT_DIR$/skelbimai/public/css/fonts/icomoon/style.css" />
         <option value="$PROJECT_DIR$/skelbimai/public/css/vendor.css" />
@@ -114,20 +162,29 @@
         <option value="$PROJECT_DIR$/skelbimai/resources/views/skelbimai/pages/category_form.blade.php" />
         <option value="$PROJECT_DIR$/skelbimai/app/Category.php" />
         <option value="$PROJECT_DIR$/skelbimai/app/Http/Controllers/CategoryController.php" />
-        <option value="$PROJECT_DIR$/skelbimai/resources/views/skelbimai/_partials/header.blade.php" />
         <option value="$PROJECT_DIR$/skelbimai/resources/views/skelbimai/pages/category_management.blade.php" />
         <option value="$PROJECT_DIR$/skelbimai/resources/views/skelbimai/pages/ad_management.blade.php" />
         <option value="$PROJECT_DIR$/skelbimai/resources/views/skelbimai/_partials/admin_panel.blade.php" />
-        <option value="$PROJECT_DIR$/skelbimai/routes/web.php" />
         <option value="$PROJECT_DIR$/skelbimai/resources/views/skelbimai/pages/home.blade.php" />
         <option value="$PROJECT_DIR$/skelbimai/resources/views/skelbimai/pages/search.blade.php" />
         <option value="$PROJECT_DIR$/skelbimai/resources/views/skelbimai/pages/ad_form.blade.php" />
         <option value="$PROJECT_DIR$/skelbimai/app/Ad.php" />
-        <option value="$PROJECT_DIR$/skelbimai/app/Http/Controllers/HomeController.php" />
         <option value="$PROJECT_DIR$/skelbimai/resources/views/skelbimai/pages/ads.blade.php" />
         <option value="$PROJECT_DIR$/skelbimai/resources/views/skelbimai/pages/ad.blade.php" />
         <option value="$PROJECT_DIR$/skelbimai/resources/views/skelbimai/pages/ad_update.blade.php" />
         <option value="$PROJECT_DIR$/skelbimai/app/Http/Controllers/AdController.php" />
+        <option value="$PROJECT_DIR$/skelbimai/resources/sass/_variables.scss" />
+        <option value="$PROJECT_DIR$/skelbimai/webpack.mix.js" />
+        <option value="$PROJECT_DIR$/skelbimai/resources/views/skelbimai/auth/passwords/confirm.blade.php" />
+        <option value="$PROJECT_DIR$/skelbimai/resources/views/skelbimai/auth/passwords/email.blade.php" />
+        <option value="$PROJECT_DIR$/skelbimai/resources/views/skelbimai/auth/passwords/reset.blade.php" />
+        <option value="$PROJECT_DIR$/skelbimai/resources/views/skelbimai/auth/login.blade.php" />
+        <option value="$PROJECT_DIR$/skelbimai/resources/views/skelbimai/auth/register.blade.php" />
+        <option value="$PROJECT_DIR$/skelbimai/resources/views/skelbimai/auth/verify.blade.php" />
+        <option value="$PROJECT_DIR$/skelbimai/app/Http/Controllers/HomeController.php" />
+        <option value="$PROJECT_DIR$/skelbimai/app/Providers/RouteServiceProvider.php" />
+        <option value="$PROJECT_DIR$/skelbimai/routes/web.php" />
+        <option value="$PROJECT_DIR$/skelbimai/resources/views/skelbimai/_partials/header.blade.php" />
       </list>
     </option>
   </component>
@@ -137,14 +194,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/skelbimai/node_modules" />
-  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="66" />
-    <option name="y" value="21" />
-    <option name="width" value="1178" />
+    <option name="x" value="1" />
+    <option name="width" value="1106" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -202,6 +255,34 @@
               <item name="projektai" type="b2602c69:ProjectViewProjectNode" />
               <item name="projektai" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="skelbimai" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Auth" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="projektai" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projektai" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="skelbimai" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Providers" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="projektai" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projektai" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="skelbimai" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="projektai" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projektai" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="skelbimai" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="bootstrap" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="projektai" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projektai" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="skelbimai" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="database" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -222,6 +303,13 @@
               <item name="projektai" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="skelbimai" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="projektai" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projektai" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="skelbimai" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="storage" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -231,6 +319,81 @@
               <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="storage" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="images" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="projektai" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projektai" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="skelbimai" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="projektai" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projektai" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="skelbimai" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="sass" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="projektai" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projektai" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="skelbimai" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="scss" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="projektai" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projektai" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="skelbimai" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="projektai" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projektai" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="skelbimai" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="auth" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="projektai" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projektai" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="skelbimai" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="auth" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="passwords" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="projektai" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projektai" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="skelbimai" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="layouts" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="projektai" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projektai" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="skelbimai" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="skelbimai" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="projektai" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projektai" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="skelbimai" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="skelbimai" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="_partials" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="projektai" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projektai" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="skelbimai" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="routes" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="projektai" type="b2602c69:ProjectViewProjectNode" />
@@ -281,11 +444,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\moksleivis\projektai\skelbimai\resources\views" />
+      <recent name="C:\Users\moksleivis\projektai\skelbimai\resources\views\skelbimai" />
       <recent name="C:\Users\moksleivis\projektai\skelbimai\public\css\fonts" />
       <recent name="C:\Users\moksleivis\projektai\skelbimai\public\css" />
-      <recent name="C:\Users\moksleivis\projektai\skelbimai\resources\views\skelbimai" />
       <recent name="C:\Users\moksleivis\projektai\skelbimai\public" />
-      <recent name="C:\Users\moksleivis\projektai\skelbimai\public\css\vendor" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -315,7 +478,7 @@
       <workItem from="1581055740728" duration="21240000" />
       <workItem from="1581315237251" duration="10543000" />
       <workItem from="1581415903407" duration="8710000" />
-      <workItem from="1581573537916" duration="8369000" />
+      <workItem from="1581573537916" duration="15282000" />
     </task>
     <task id="LOCAL-00001" summary="sumixinta">
       <created>1580978392888</created>
@@ -436,23 +599,30 @@
       <option name="project" value="LOCAL" />
       <updated>1581577568122</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="update foto">
+      <created>1581584895922</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1581584895922</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79009000" />
+    <option name="totallyTimeSpent" value="85922000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19829424" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22761194" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12717392" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -471,9 +641,9 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12717392" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19829424" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22761194" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26956522" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -507,53 +677,14 @@
     <MESSAGE value="paieska pagal tris salygas" />
     <MESSAGE value="pries failu ikelima" />
     <MESSAGE value="sutvarkyta foto ikelimas" />
-    <option name="LAST_COMMIT_MESSAGE" value="sutvarkyta foto ikelimas" />
+    <MESSAGE value="update foto" />
+    <option name="LAST_COMMIT_MESSAGE" value="update foto" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/welcome.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/profile.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/skelbimai/_partials/trends.blade.php" />
-    <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/skelbimai/_partials/blog.blade.php" />
-    <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/skelbimai/_partials/testimonials.blade.php" />
-    <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/skelbimai/_partials/newsletter.blade.php" />
-    <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/skelbimai/_partials/footer.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="52" column="9" lean-forward="false" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skelbimai/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skelbimai/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/skelbimai/public/css/fonts/icomoon/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -582,13 +713,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skelbimai/webpack.mix.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -660,23 +784,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/skelbimai/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/skelbimai/pages/store_category.blade.php" />
     <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/skelbimai/pages/category_delete.blade.php" />
-    <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/skelbimai/_partials/header.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="49" lean-forward="false" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/skelbimai/app/Category.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -770,16 +879,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/skelbimai/pages/ads.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="32" column="134" lean-forward="false" selection-start-line="32" selection-start-column="99" selection-end-line="32" selection-end-column="134" />
-          <folding>
-            <element signature="e#1113#1174#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/skelbimai/pages/ad_form.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -796,41 +895,149 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/skelbimai/routes/web.php">
+    <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/skelbimai/pages/ad_update.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="30" column="25" lean-forward="false" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+        <state relative-caret-position="860">
+          <caret line="67" column="123" lean-forward="false" selection-start-line="67" selection-start-column="123" selection-end-line="67" selection-end-column="123" />
+          <folding>
+            <element signature="e#107#157#0#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skelbimai/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-160">
+          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding>
+            <element signature="e#23#69#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skelbimai/resources/sass/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skelbimai/webpack.mix.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="42" column="34" lean-forward="false" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skelbimai/app/Http/Controllers/AdController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1520">
+          <caret line="76" column="42" lean-forward="false" selection-start-line="76" selection-start-column="42" selection-end-line="76" selection-end-column="42" />
+          <folding>
+            <element signature="e#40#51#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/skelbimai/pages/ads.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="26" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="26" />
+          <folding>
+            <element signature="e#1113#1174#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/auth/passwords/confirm.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/auth/passwords/reset.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/auth/verify.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/auth/passwords/email.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/auth/login.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/auth/register.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skelbimai/app/Http/Controllers/Auth/LoginController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skelbimai/app/Providers/RouteServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="23" column="39" lean-forward="false" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/skelbimai/app/Http/Controllers/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-168">
-          <caret line="13" column="78" lean-forward="false" selection-start-line="13" selection-start-column="78" selection-end-line="13" selection-end-column="78" />
+        <state relative-caret-position="-248">
+          <caret line="14" column="34" lean-forward="false" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
           <folding>
             <element signature="e#39#56#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/skelbimai/pages/ad_update.blade.php">
+    <entry file="file://$PROJECT_DIR$/skelbimai/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="860">
-          <caret line="67" column="123" lean-forward="false" selection-start-line="67" selection-start-column="123" selection-end-line="67" selection-end-column="123" />
-          <folding>
-            <element signature="e#107#157#0#HTML" expanded="true" />
-          </folding>
+        <state relative-caret-position="560">
+          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/skelbimai/app/Http/Controllers/AdController.php">
+    <entry file="file://$PROJECT_DIR$/skelbimai/resources/views/skelbimai/_partials/header.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="76" column="42" lean-forward="true" selection-start-line="76" selection-start-column="42" selection-end-line="76" selection-end-column="42" />
-          <folding>
-            <element signature="e#40#51#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="480">
+          <caret line="24" column="34" lean-forward="false" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>

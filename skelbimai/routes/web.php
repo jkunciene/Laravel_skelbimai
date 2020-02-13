@@ -32,3 +32,9 @@ Route::post('/ad_update2/{ad}', 'AdController@adUpdate2'); /*parodo html forma*/
 Route::get('/search_action/', 'HomeController@searchAction');
 /*pirma pages pavadinimas 2-funkcijos*/
 
+
+Auth::routes();
+
+
+Route::get('/home', 'AdController@adManagement');
+

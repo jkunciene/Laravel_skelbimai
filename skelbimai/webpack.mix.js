@@ -36,8 +36,8 @@ mix.combine([
     'public/js/jquery.countdown.min.js',
     'public/js/jquery.magnific-popup.min.js',
     'public/js/bootstrap-datepicker.min.js',
-   'public/js/aos.js',
-   'public/js/rangeslider.min.js',
+    'public/js/aos.js',
+    'public/js/rangeslider.min.js',
     'public/js/main.js'
 ], 'public/js/app.js');
 mix.browserSync('skelbimai.test');

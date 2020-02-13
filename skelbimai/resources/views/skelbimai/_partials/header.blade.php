@@ -20,9 +20,9 @@
                     </li>
                     <li class="mr-5"><a href="/contact">Contact</a></li>
 
-                    <li class="ml-xl-3 login"><a href=""><span class="border-left pl-xl-4"></span>Log In</a></li>
+                    <li class="ml-xl-3 login"><a href="/login"><span class="border-left pl-xl-4"></span>Log In</a></li>
 
-                    <li><a href="" class="cta"><span class="bg-primary text-white rounded">Register</span></a></li>
+                    <li><a href="/register" class="cta"><span class="bg-primary text-white rounded">Register</span></a></li>
                 </ul>
             </nav>
         </div>
