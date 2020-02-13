@@ -37,7 +37,7 @@
                         </div>
                     @endif
 
-                    <form method="post" action="/store_ad" class="p-5 bg-white">
+                    <form method="post" action="/store_ad" enctype="multipart/form-data" class="p-5 bg-white">
                         @csrf
                         <div class="row form-group">
                             <div class="col-md-12">

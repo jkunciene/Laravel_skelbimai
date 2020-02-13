@@ -25,10 +25,15 @@ class AdController extends Controller
             'aprasymas' => 'required',
             'kaina'=> 'required',
             'email'=> 'required',
-            'vieta'=> 'required'
+            'vieta'=> 'required',
+            'nuotraukos' => 'mimes:jpeg, jpg, png, gift|required|max:10000'
 
             //pildomos formos name reiksme
         ]);
+
+        $path = $request->file("nuotraukos")->store("public/images");
+        $filename = str_replace("public/", "", $path);
+
 //        $cat = request('title');
 //        dd($cat);
 //        $tel = request('tel');
@@ -42,7 +47,8 @@ class AdController extends Controller
             'email' => request('email'),
             'phone' => request('tel'),
             'location' => request('vieta'),
-            'catid' => request('kategorijos')
+            'catid' => request('kategorijos'),
+            'img'=>$filename
 
         ]);
         return redirect('/ads');

@@ -11,7 +11,7 @@ class HomeController extends Controller
     public function index()
     {
 
-        $ads = Ad::select('ads.id', 'ads.title', 'ads.description', 'ads.price', 'ads.email',
+        $ads = Ad::select('ads.id', 'ads.title', 'ads.description', 'ads.img', 'ads.price', 'ads.email',
             'ads.phone', 'ads.location', 'categories.name as category')
             ->join('categories', 'categories.id', "=", 'ads.catid')->get();
         $categories = Category::all();
@@ -21,7 +21,7 @@ class HomeController extends Controller
 
     public function ads()
     {
-        $ads = Ad::select('ads.id', 'ads.title', 'ads.description', 'ads.price', 'ads.email',
+        $ads = Ad::select('ads.id', 'ads.title', 'ads.description', 'ads.img', 'ads.price', 'ads.email',
             'ads.phone', 'ads.location', 'categories.name as category')
             ->join('categories', 'categories.id', "=", 'ads.catid')->paginate(2);
 //        dd($ads);
