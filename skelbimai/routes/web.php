@@ -37,4 +37,5 @@ Auth::routes();
 
 
 Route::get('/home', 'AdController@adManagement');
+Route::get('/logout', 'HomeController@logout');
 

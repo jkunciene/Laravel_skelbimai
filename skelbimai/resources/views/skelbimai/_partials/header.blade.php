@@ -19,10 +19,18 @@
                         </ul>
                     </li>
                     <li class="mr-5"><a href="/contact">Contact</a></li>
+               @auth
+                        <li class="cta"><a href="/logout"><span class="bg-primary text-white rounded">Log Out</span></a>
+                        </li>
+                    @endauth
 
-                    <li class="ml-xl-3 login"><a href="/login"><span class="border-left pl-xl-4"></span>Log In</a></li>
+                    @guest
+                        <li class="cta"><a href="/login"><span class="bg-primary text-white rounded">Log In</span></a>
+                        </li>
 
-                    <li><a href="/register" class="cta"><span class="bg-primary text-white rounded">Register</span></a></li>
+                        <li><a href="/register" class="cta"><span class="bg-primary text-white rounded">Register</span></a>
+                        </li>
+                    @endguest
                 </ul>
             </nav>
         </div>

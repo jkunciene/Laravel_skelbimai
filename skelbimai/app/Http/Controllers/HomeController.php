@@ -4,16 +4,12 @@ namespace App\Http\Controllers;
 use App\Category;
 use App\Ad;
 use Illuminate\Http\Request;
-
+use Illuminate\Support\Facades\Auth;
 
 class HomeController extends Controller
 
 {
 
-    public function __construct()
-    {
-        $this->middleware('auth');
-    }
 
     public function index()
     {
@@ -61,5 +57,9 @@ class HomeController extends Controller
 
 
         return view ('skelbimai.pages.search', compact('ads'));
+    }
+    public function logout(){
+        Auth::logout();
+        return redirect('/');
     }
 }
