@@ -100,7 +100,7 @@ class AdController extends Controller
             'kaina' => 'required',
             'email' => 'required',
             'vieta' => 'required',
-            'nuotraukos' => 'mimes:jpeg, jpg, png, gift|required|max:10000'
+            'nuotraukos' => 'mimes:jpeg, jpg, png, gift|max:10000'
 
             //pildomos formos name reiksme
         ]);

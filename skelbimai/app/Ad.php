@@ -10,7 +10,7 @@ class Ad extends Model
 
 
     public function comments(){
-        return $this->hasMany(Comment::class);
+        return $this->hasMany(Coment::class);
     }
 
     public function user(){

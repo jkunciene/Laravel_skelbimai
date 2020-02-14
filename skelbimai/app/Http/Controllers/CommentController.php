@@ -17,8 +17,8 @@ class CommentController extends Controller
         ]);
         Coment::create([
             'comment' => request('comment'),
-            'name'=> 'Irma',
-            'adid' => $ad->id,
+            'name'=> (Auth::user())? Auth::user()->name: "Anonimas",
+            'ad_id' => $ad->id,
             'userid' => Auth()->id()
         ]);
         return back();
