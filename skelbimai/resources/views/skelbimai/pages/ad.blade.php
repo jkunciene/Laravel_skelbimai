@@ -27,15 +27,20 @@
                 <div class="mb-4" style="margin-top: -150px;">
                     <div class="slide-one-item home-slider owl-carousel">
                         <div><img src="{{asset('storage/'.$ad->img)}}" alt="Image" class="img-fluid rounded"></div>
-
                     </div>
                 </div>
 
                 <h4 class="h5 mb-4 text-black">Description</h4>
                 <p>{{$ad->description}}</p>
 
-                <p class="mt-3"><a href="#" class="btn btn-primary">Get In Touch</a></p>
 
+                <form action="/comment/{{$ad->id}}" method="post">
+                    @csrf
+                <h4 class="h5 mb-4 text-black">Comment</h4>
+                <textarea name="comment" id="" cols="30" rows="10"></textarea>
+
+                <button class="btn btn-primary" type='submit' >Komentuoti</button>
+                </form>
             </div>
             <div class="col-lg-3 ml-auto">
 

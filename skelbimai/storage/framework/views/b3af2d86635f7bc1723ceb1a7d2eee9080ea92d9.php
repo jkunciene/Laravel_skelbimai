@@ -1,5 +1,5 @@
-@extends('skelbimai/main')
-@section('content')
+
+<?php $__env->startSection('content'); ?>
 <div class="site-blocks-cover inner-page-cover overlay" style="background-image: url(images/hero_2.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
     <div class="container">
         <div class="row align-items-center justify-content-center text-center">
@@ -26,20 +26,20 @@
             <div class="col-lg-8">
 
                 <div class="row">
-                    @foreach($ads as $ad)
+                    <?php $__currentLoopData = $ads; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $ad): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                     <div class="col-lg-6">
 
                         <div class="d-block d-md-flex listing vertical">
-                            <a href="/ad/{{$ad->id}}" class="img d-block" style="background-image: url({{asset('storage/'.$ad->img)}})"></a>
-                            {{--<img src="{{asset('storage/'.$ad->img)}}" >--}}
-                            {{--<img src="{{Storage::url("images/$ad->filename")}}" >--}}
+                            <a href="/ad/<?php echo e($ad->id); ?>" class="img d-block" style="background-image: url(<?php echo e(asset('storage/'.$ad->img)); ?>)"></a>
+                            
+                            
                             <div class="lh-content">
-                                <span class="category">{{$ad->id}}</span>
+                                <span class="category"><?php echo e($ad->id); ?></span>
                                 <a href="#" class="bookmark"><span class="icon-heart"></span></a>
-                                <a href="/ad/{{$ad->id}}"><h3>{{$ad->title}}</h3></a>
-                                <p>{{$ad->price}}</p>
-                                <p>{{$ad->category}}</p>
-                                <address>{{$ad->location}}</address>
+                                <a href="/ad/<?php echo e($ad->id); ?>"><h3><?php echo e($ad->title); ?></h3></a>
+                                <p><?php echo e($ad->price); ?></p>
+                                <p><?php echo e($ad->category); ?></p>
+                                <address><?php echo e($ad->location); ?></address>
                                 <p class="mb-0">
                                     <span class="icon-star text-warning"></span>
                                     <span class="icon-star text-warning"></span>
@@ -53,10 +53,11 @@
                         </div>
 
                     </div>
-@endforeach
+<?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
                 </div>
 
-              {{$ads->links()}}
+              <?php echo e($ads->links()); ?>
+
 
             </div>
             <div class="col-lg-3 ml-auto">
@@ -151,4 +152,5 @@
 </div>
 
 
-@stop
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('skelbimai/main', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH /home/vagrant/code/skelbimai/resources/views/skelbimai/pages/ads.blade.php ENDPATH**/ ?>
