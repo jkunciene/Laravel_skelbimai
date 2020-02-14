@@ -21,6 +21,7 @@ Route::get('/ad_form/', 'AdController@adForm');
 Route::get('/category_form/', 'CategoryController@adCategory'); /*parodo html forma*/
 Route::get('/category_management/', 'CategoryController@categoryManagement'); /*parodo html forma*/
 Route::get('/ad_management/', 'AdController@adManagement'); /*parodo html forma*/
+Route::get('/errors/', 'AdController@errors'); /*parodo html forma*/
 Route::get('/category_delete/{category}', 'CategoryController@categoryDelete'); /*parodo html forma*/
 Route::get('/ad_delete/{ad}', 'AdController@adDelete'); /*parodo html forma*/
 Route::get('/ad_update/{ad}', 'AdController@adUpdate');

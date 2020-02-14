@@ -4,8 +4,11 @@ namespace App\Http\Controllers;
 
 use App\Ad;
 use App\Category;
+
+use Gate;
 use Illuminate\Http\Request;
 use File;
+use Illuminate\Support\Facades\Auth;
 
 class AdController extends Controller
 
@@ -15,24 +18,27 @@ class AdController extends Controller
         $this->middleware('auth');
     }
 
-    public function adForm(){
+    public function adForm()
+    {
         $categories = Category::all();
-        return view ('skelbimai.pages.ad_form', compact('categories'));
+        return view('skelbimai.pages.ad_form', compact('categories'));
     }
 
-    public function adManagement(){
+    public function adManagement()
+    {
         $ads = Ad::all();
-        return view ('skelbimai.pages.ad_management', compact('ads'));
+        return view('skelbimai.pages.ad_management', compact('ads'));
     }
 
-    public function storeAd(Request $request){
+    public function storeAd(Request $request)
+    {
         $validateDate = $request->validate([
-            'kategorijos' =>  'required',
+            'kategorijos' => 'required',
             'pavadinimas' => 'required',
             'aprasymas' => 'required',
-            'kaina'=> 'required',
-            'email'=> 'required',
-            'vieta'=> 'required',
+            'kaina' => 'required',
+            'email' => 'required',
+            'vieta' => 'required',
             'nuotraukos' => 'mimes:jpeg, jpg, png, gift|required|max:10000'
 
             //pildomos formos name reiksme
@@ -45,17 +51,19 @@ class AdController extends Controller
 //        dd($cat);
 //        $tel = request('tel');
 //        dd($tel);
+        //dd(Auth::id());
         $ad = Ad::create([
 
             //i db stulpeli vardu name, idek title reiksme is formos
-           'title'=> request('pavadinimas'),
-            'description'=>request('aprasymas'),
+            'title' => request('pavadinimas'),
+            'description' => request('aprasymas'),
             'price' => request('kaina'),
             'email' => request('email'),
             'phone' => request('tel'),
             'location' => request('vieta'),
             'catid' => request('kategorijos'),
-            'img'=>$filename
+            'img' => $filename,
+            'userid' => Auth::id()
 
         ]);
         return redirect('/ads');
@@ -63,44 +71,58 @@ class AdController extends Controller
 
     public function adDelete(Ad $ad)
     {
-        $ad->delete();
-        return redirect('/ad_management');
-    }
-    public function adUpdate(Ad $ad)   {
+        if (Gate::allows('update-post', $ad)) {
+            $ad->delete();
+            return redirect('/ad_management');
+        }
+        return redirect('/errors');
 
-        return view('skelbimai.pages.ad_update', compact('ad'));
     }
-    public function adUpdate2(Ad $ad, Request $request){
+    public function errors()
+    {
+        return view('skelbimai.pages.errors');
+    }
+
+    public function adUpdate(Ad $ad)
+    {
+        if (Gate::allows('update-post', $ad)) {
+            return view('skelbimai.pages.ad_update', compact('ad'));
+        }
+        return redirect('/errors');
+    }
+
+    public function adUpdate2(Ad $ad, Request $request)
+    {
         $validateDate = $request->validate([
-            'kategorijos' =>  'required',
+            'kategorijos' => 'required',
             'pavadinimas' => 'required',
             'aprasymas' => 'required',
-            'kaina'=> 'required',
-            'email'=> 'required',
-            'vieta'=> 'required',
+            'kaina' => 'required',
+            'email' => 'required',
+            'vieta' => 'required',
             'nuotraukos' => 'mimes:jpeg, jpg, png, gift|required|max:10000'
 
             //pildomos formos name reiksme
         ]);
 
-            Ad::where ('id', request('id'))->
-            update(['title'=> request('pavadinimas'),
-                'description'=>request('aprasymas'),
-                'price' => request('kaina'),
-                'email' => request('email'),
-                'phone' => request('tel'),
-                'location' => request('vieta'),
-                'catid' => request('kategorijos'),
-              ]);
-            if($request->hasFile('nuotraukos')){
-                File::delete(storage_path('/app/public/'.$ad->img));
-                $path = $request->file("nuotraukos")->store("public/images");
-                $filename = str_replace("public/", "", $path);
-                Ad::where('id', $ad->id)->update([
-                    'img' =>$filename
-                ]);
-            }
+        Ad::where('id', request('id'))->
+        update(['title' => request('pavadinimas'),
+            'description' => request('aprasymas'),
+            'price' => request('kaina'),
+            'email' => request('email'),
+            'phone' => request('tel'),
+            'location' => request('vieta'),
+            'catid' => request('kategorijos'),
+        ]);
+        if ($request->hasFile('nuotraukos')) {
+            File::delete(storage_path('/app/public/' . $ad->img));
+            $path = $request->file("nuotraukos")->store("public/images");
+            $filename = str_replace("public/", "", $path);
+            Ad::where('id', $ad->id)->update([
+                'img' => $filename
+            ]);
+        }
 
-            return redirect('/ad_management');
+        return redirect('/ad_management');
     }
 }
